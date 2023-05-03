@@ -5,16 +5,13 @@ import { Header } from '@rneui/themed';
 
 export default function HomeScreen() {
     return (
-
-        <View>
+        <View style={{marginBottom: 20}}>
             <ImageBackground
                 style={styles.background}
                 source={require('./images/background2.jpg')}
             >
                 <View>
-
                     <Text style={styles.head}>Hotelliaamupalat Helsinki</Text>
-
                 </View>
             </ImageBackground>
         </View>
@@ -31,7 +28,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         marginTop: 100,
         fontSize: 40,
-        color: 'rgba(111, 190, 180, 1)'
+        color: '#ffffff'
     }
 });
     
