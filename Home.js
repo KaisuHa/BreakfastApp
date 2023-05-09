@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Text, ImageBackground, Image, TouchableOpacity, Alert, StyleSheet, FlexContainer } from 'react-native';
-import { Header } from '@rneui/themed';
+import { View, Text, ImageBackground,  StyleSheet} from 'react-native';
+
 
 
 export default function HomeScreen() {

@@ -4,6 +4,8 @@ import { Stack, TextInput, IconButton } from "@react-native-material/core";
 import { Button } from '@rneui/themed';
 import * as SQLite from 'expo-sqlite';
 import Hotellilista from './Hotellilista';
+import Formik from 'formik';
+import Hotellit from './Hotellit';
 
 //const db = SQLite.openDatabase('hotellitdb.db');
 
@@ -16,15 +18,12 @@ export default function LisaysLomake() {
 
   const [hotels, setHotels] = useState({
     title:'',
+    image:'',
     description:'',
     price:'',
     web:'',
-    image:'',
   });
-const register= ()=>{
-  setHotels('hotel', JSON.stringify(hotels));
 
-}
   
 
 {/* useEffect(() => {
@@ -59,8 +58,7 @@ const register= ()=>{
     )    
   }*/}
   return (
-    <View style={styles.container}>
-
+    <View style={styles.container}>   
       <ImageBackground
         style={styles.background}
         source={require('./images/background2.jpg')}
@@ -68,6 +66,7 @@ const register= ()=>{
         <View>
           <Text style={{ fontSize: 30, fontWeight: 'bold',  padding:30, marginBottom: 10, color: '#ffff' }}> Lisää hotelli: </Text>
         </View>
+  
         <TextInput style={{ width: 290, marginBottom: 20, marginHorizontal:20, marginLeft:30 }}
           type="text"
           placeholder=' Hotelli'
@@ -104,7 +103,6 @@ const register= ()=>{
         title="Lisää"></Button>
 
       </ImageBackground>
-
 
     </View>
 

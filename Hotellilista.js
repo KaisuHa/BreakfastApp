@@ -6,14 +6,17 @@
               image:'https://media.radissonhotels.net/image/radisson-blu-aleksanteri-hotel-helsinki/exterior/16256-116501-f63812400_3xl.jpg?impolicy=CustomCrop&cwidth=800&cheight=610',
               description: 'Super Breakfast Buffet',
               price: '25 €',
-              web: 'https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-helsinki-aleksanteri'
+              web: 'https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-helsinki-aleksanteri',
+              lat: 60.1013,
             },
             {id: '2', 
               title: 'Radisson Blu Plaza',
               image: 'https://media.radissonhotels.net/image/radisson-blu-plaza-hotel-helsinki/breakfastarea/16256-113856-f66998418_3xl.jpg?impolicy=CustomCrop&cwidth=800&cheight=610',
               description: 'Super Breakfast Buffet',
               price: '25 €',
-              web: 'https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-helsinki'
+              web: 'https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-helsinki',
+              lat: 60.172250,
+              long: 24.945452
             },
             {id: '3', 
               title: 'Radisson Blu Seaside',
